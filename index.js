@@ -1,11 +1,11 @@
 const containerElement = document.querySelector('.container');
 
-getrandomRecipe();
+getRandomRecipe();
 
 
 
-async function getrandomRecipe() {
-    const response = await fetch('https://serverirakendus-14.onrender.com');
+async function getRandomRecipe() {
+    const response = await fetch('https://serverirakendus-14.onrender.com/randomRecipe');
     const recipe = await response.json();
 
     const recipeName = recipe.recipe.recipename;
