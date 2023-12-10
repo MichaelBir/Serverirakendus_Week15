@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@100&family=Raleway:wght@100&display=swap');
 
 body {
     background-color: rgba(114, 111, 105, 0.75);
@@ -8,7 +8,7 @@ body {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -16,15 +16,15 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: 'Lato', sans-serif;
-    color: #1c1111;
+    font-family: 'Raleway', sans-serif;
+    color: #313030;
 }
 
 ul {
     list-style: none;
     padding-inline-start: 0;
     font-size: 1.1rem;
-    font-family: 'Comic', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -36,7 +36,7 @@ img {
 footer {
     position: fixed;
     margin: 1.5rem;
-    color: rgb(200, 203, 205);
+    color: rgb(86, 86, 86);
     left: 0;
     right: 0;   
     bottom: 0;
