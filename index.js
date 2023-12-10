@@ -1,10 +1,10 @@
 const containerElement = document.querySelector('.container');
 
-getRandomRecipe();
+getrandomRecipe();
 
 
 
-async function getRandomRecipe() {
+async function getrandomRecipe() {
     const response = await fetch('https://serverirakendus-14.onrender.com');
     const recipe = await response.json();
 
